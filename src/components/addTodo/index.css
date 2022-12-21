@@ -1,0 +1,54 @@
+.add-darck{
+    width: 40%;
+    background-color: hsl(235, 24%, 19%);
+    margin-left: 30%;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.add-light{
+    width: 40%;
+    background-color: hsl(0, 0%, 98%);
+    margin-left: 30%;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.add-input-darck{
+    background-color: hsl(235, 24%, 19%);
+    border: none;
+    outline: none;
+    color: hsl(234, 39%, 85%);
+    margin-left: 15px;
+}
+.add-input-light{
+    background-color: hsl(0, 0%, 98%);
+    border: none;
+    outline: none;
+    color: hsl(235, 19%, 35%);
+    margin-left: 15px;
+    width:350px;
+}
+
+.check-light{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    border-radius: 100%;
+    background-color: hsl(0, 0%, 98%);
+    border: solid 1px hsl(234, 11%, 52%);;
+}
+
+
+.check-dark{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    border-radius: 100%;
+    background-color: hsl(235, 24%, 19%);
+    border: solid 1px hsl(237, 14%, 26%);
+}

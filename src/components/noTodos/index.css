@@ -1,0 +1,9 @@
+
+.no-todo-dark{
+    margin-top: 50px;
+    color: white;
+}
+.no-todo-light{
+    margin-top: 50px;
+    color: hsl(235, 19%, 35%);
+}

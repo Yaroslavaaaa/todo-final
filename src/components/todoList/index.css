@@ -1,0 +1,109 @@
+.todo-list-darck{
+    width: 40%;
+    background-color: hsl(235, 24%, 19%);
+    margin-left: 30%;
+    margin-top: 10px;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 0;
+}
+.todo-list-light{
+    width: 40%;
+    background-color: hsl(0, 0%, 98%);
+    margin-left: 30%;
+    margin-top: 10px;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 0;
+}
+.dark-el{
+    width: 81%;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.light-el{
+    width: 81%;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.check-light{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    border-radius: 100%;
+    background-color: hsl(0, 0%, 98%);
+    border: solid 1px hsl(236, 33%, 92%);
+}
+
+
+.check-dark{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    border-radius: 100%;
+    background-color: hsl(235, 24%, 19%);
+    border: solid 1px hsl(237, 14%, 26%);
+}
+
+
+
+.done-todo{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    border-radius: 100%;
+    background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+    border: solid 1px hsl(236, 33%, 92%); 
+}
+
+.todo-dark{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
+    
+    background-color: hsl(235, 24%, 19%);
+
+    border-bottom: solid 1px  hsl(237, 14%, 26%);
+    color: hsl(234, 39%, 85%);
+    width: 100%;
+    height: 45px;
+    text-align: left;
+}
+.todo-light{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
+    
+    background-color: hsl(0, 0%, 98%);
+
+    border-bottom: solid 1px  hsl(236, 33%, 92%);
+    color: hsl(235, 19%, 35%);
+    width: 100%;
+    height: 45px;
+    text-align: left;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    cursor: pointer;
+}
+
+.done-dark{
+    text-decoration: line-through;
+    color: hsl(234, 11%, 52%);
+}
+
+.done-light{
+    text-decoration: line-through;
+    color: hsl(233, 11%, 80%);
+}
+
